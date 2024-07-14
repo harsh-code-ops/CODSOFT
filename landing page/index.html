@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweetspot's</title>
+    <link rel="stylesheet" href="landing_page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="navbar">
+          <div class="nav_logo">
+            <h4 class="logo">Sweetspot's</h4>
+          </div>
+
+          <div class="nav_address border">
+            <div class="add_icon">
+              <i class="fa-solid fa-location-dot"></i>
+              <p class="second_address">India</p>
+            </div>
+          </div>
+      
+          <div class="nav_searchbar">
+            <select class="select_box">
+              <option >All</option>
+            </select>
+            <input placeholder="Search Sweetspot" class="input_box">
+            <div class="search_bar">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+      
+          <div class="nav_signin border">
+            <a href="#about" class="nav_second"><p>About</p></a>
+          </div>
+      
+          <div class="nav_returns border">
+            <a href="#contact" class="nav_second"><p >Contact</p></a>
+          </div>
+      
+          <div class="nav_cart border">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Cart
+          </div>
+          <i class="fa-solid fa-bars" id="opened"></i>
+          <i class="fa-solid fa-circle-xmark" id="closed"></i>
+        </div>
+    </header>
+
+    <!-- HOME SECTION  -->
+
+    <div id="home">
+          <div class="row">
+              <div class="home-col-1">
+                  <img src="top-view-delicious-creamy-ice-cream.jpg" alt="image">
+              </div>
+              <div class="home-col-2">
+                  <h1 class="sub-title">Sweetspot's <br> Handmade with Love<a><i class="fa-solid fa-heart"></i></a></h1>
+                  <p class="homepara">Welcome to Sweet Delights, <br> Where every treat is a masterpiece! <br>We craft our sweets with love and the finest ingredients, ensuring every bite is a moment of bliss. <br> From traditional favorites to unique creations, we cater to all sweet. <br> Join us for a delightful journey of flavors!</p>
+                  <div class="order">
+                    Order Now 
+                  </div>
+              </div>
+          </div>
+    </div>
+
+    <!-- ABOUT SECTION -->
+
+    <div id="about">
+          <div class="row">
+            <div class="about-col-2">
+              <h1 class="sub-title">About Us</h1>
+              <p class="aboutpara">We started with a passion for creating sweet moments. <br> Inspired by family recipes and childhood memories, <br> we craft each treat with love and care. <br> From rich chocolates to delicate pastries, every bite is a taste of our journey. <br><br>Join us in celebrating life’s sweetest moments!</p>
+              <div class="order">
+                Order Now 
+              </div>
+            </div>
+              <div class="about-col-1">
+                  <img src="chocolate-cake-pops-with-colorful-sprinkles-macaroons-display-cabinet.jpg" alt="image">
+              </div>
+          </div>
+    </div>
+    
+    <!-- Menu -->
+
+    <div id="menu">
+      <div class="row">
+        <div class="home-col-1">
+          <img src="choclate cake.jpg" alt="image">
+        </div>
+        <div class="home-col-2">
+          <h1 class="sub-title menu_title">Buy 2 Chocolate Cakes <br> Get 1 Free!</h1>
+          <p class="homepara"><br>Indulge in the rich, decadent flavor of our irresistible Chocolate Cake! <br> Our special promotion lets you savor more of your favorite treat with an unbeatable offer. <br> <br>Don't miss out on this sweet deal! Treat yourself and your loved ones to the ultimate chocolate delight today.</p>
+          <div class="order">
+            More Offers
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- ----------------contact------------- -->
+
+<div id="contact">
+      <div class="row">
+          <div class="contact-left">
+              <h1 class="sub-title">Contact Me</h1>
+              <p><i class="fa-solid fa-envelope"></i>rajaharsh751@gmail.com</p>
+              <p><i class="fa-solid fa-phone"></i>8533826553</p>
+              <div class="social-icons">
+                  <a href=""><i class="fa-brands fa-instagram"></i></a>
+                  <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                  <a href=""><i class="fa-brands fa-facebook"></i></a>
+              </div>
+              <a href="" class="btn btn2">Download Menu</a>
+          </div>
+          <div class="contact-right">
+              <form name="submit-to-google-sheet">
+                  <input type="text" name="Name" placeholder="Your Name" required>
+                  <input type="email" name="Email" placeholder="Your Email" required>
+                  <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                  <button type="submit" class="btn btn2">Submit</button>
+              </form>
+              <span id="msg"></span>
+          </div>
+      </div>
+  <div class="copyright">
+      <p>Developed with <i class="fa-solid fa-heart"></i> by Harsh Raja &copy 2024 </p>
+  </div>
+</div>
+
+<script src="landing_page.js"></script>
+</body>
+</html>
