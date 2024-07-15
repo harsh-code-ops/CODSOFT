@@ -50,6 +50,8 @@ The Calculator project is a simple, functional web application that performs bas
 - HTML
 - CSS
 - JavaScript
+
+
 --------------------------------------------------------------------Contact-----------------------------------------------------------------------------
 ### Contact
 Feel free to reach out to me via rajaharsh751@gmail.com if you have any questions or suggestions regarding these projects.
