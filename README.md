@@ -25,7 +25,7 @@ A personal portfolio website showcasing my skills, projects, and contact informa
 ---------------------------- ##Landing Page(Sweetspot) -------------------------------
 
 ## Description
-The SweetSpot Landing Page is a promotional page designed to attract and inform potential users about SweetSpot, a product aimed at simplifying and enhancing the user experience. The landing page highlights the key features of SweetSpot, provides user testimonials, and includes a call-to-action to encourage sign-ups or purchases. The design is visually appealing and optimized for conversions.
+The SweetSpot Landing Page is a promotional page designed to attract and inform potential users about SweetSpot, a product aimed at simplifying and enhancing the user experience. 
 
 ## Key Sections
 - **Features:** An overview of the main features and benefits of SweetSpot, presented in an easy-to-read format.
